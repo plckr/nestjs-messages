@@ -1,0 +1,16 @@
+### List Messages
+
+GET http://localhost:3001/messages HTTP/1.1
+
+### Create Message
+
+POST http://localhost:3001/messages HTTP/1.1
+content-type: application/json
+
+{
+    "content": "message after DI"
+}
+
+### Get specific Message
+
+GET http://localhost:3001/messages/666 HTTP/1.1
